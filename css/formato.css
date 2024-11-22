@@ -1,4 +1,23 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #531919;
+body{
+    background-color: red;
+}
+svg{
+    width:800px;
+    background-color: rgb(255, 139, 139);
+}
+circle{
+    align-items: center;
+}
+@media screen and (max-width:800px)
+{ img{width:50%;}
+svg{width:100%;
+background-color:aqua;
+
+}
+}
+@media screen and (min-width:800px)
+{
+   
+svg{display:inline-block;
+    width:100%;}
 }
